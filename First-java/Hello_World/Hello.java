@@ -3,6 +3,7 @@ public class Hello{
    {
     System.out.println("This is my code");
     byte b = 127;
-    System.out.println(b);
+    int a = b;
+    System.out.println(a);
    }
 }
