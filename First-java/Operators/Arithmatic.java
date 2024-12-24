@@ -24,18 +24,36 @@ public class operators {
 
         // incrementing values
 
-        //num1= num1+2;
-        
-
-        //num1 = num1+2;
-        //num1 +=1;
-        num1++ ; // increment
+        num1= num1+2;
+        num1 = num1+2;
+        num1 +=1;
+        num1++ ; // post increment
+        ++num1; // pre increment
+        num1--; // post decrement
+        num2-- ;// pre decrement
 
         System.out.println(num1);
+        System.out.println(num2);
+
+        int num3=5;
+
+        System.out.println(num3);
+
+        num3++;
+        System.out.println(num3);
+
+        ++num3;
+        System.out.println(num3);
+
+        String myStr = "Hello";
+        char result = myStr.charAt(0);
+        System.out.println(result);
+
+        int result5 = myStr.codePointAt(3);
+        System.out.println(result5);
 
 
-
-    }
+  }
 
     
 }
