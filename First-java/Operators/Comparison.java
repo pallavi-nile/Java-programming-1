@@ -34,6 +34,26 @@ public class Comparison {
 
         boolean result7= a!=b;
         System.out.println(result7);
+
+        // checking for double values 
+
+        double u = 7.9;
+        double v = 8.8;
+
+        boolean result8 = u<v;
+        System.out.println(result8);
+
+        boolean result9 = u>v;
+        System.out.println(result9);
+
+        boolean result10 = u==v;
+        System.out.println(result10);
+
+        boolean result11 = u!=v;
+        System.out.println(result11);
+
+
+
         
         
 
